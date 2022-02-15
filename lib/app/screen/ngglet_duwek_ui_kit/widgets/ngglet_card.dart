@@ -7,7 +7,6 @@ import 'widgets/row2/row2.dart';
 import 'widgets/row3/row3.dart';
 import 'widgets/row4/row4.dart';
 import 'widgets/row5/row5.dart';
-import 'widgets/row6/row6.dart';
 
 class NggletCard extends StatefulWidget {
   Color color;
