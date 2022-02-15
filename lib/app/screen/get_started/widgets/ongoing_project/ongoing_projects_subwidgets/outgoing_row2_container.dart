@@ -22,7 +22,7 @@ class OutgoingRow2Container extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(icon, size: 15),
+            Transform.rotate(angle: -0.785398, child: Icon(icon, size: 15)),
             SizedBox(width: 5),
             TextDesign(
               data: data,
