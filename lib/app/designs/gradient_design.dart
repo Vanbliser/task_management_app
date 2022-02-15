@@ -7,7 +7,7 @@ class GradientDesign extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        padding: const EdgeInsets.only(left: 8, right: 8, top: 8),
+        //padding: const EdgeInsets.only(left: 8, right: 8, top: 8),
         constraints: const BoxConstraints.expand(),
         decoration: const BoxDecoration(
           gradient: RadialGradient(

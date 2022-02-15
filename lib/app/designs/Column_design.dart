@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ColumnDesign extends StatelessWidget {
-  late double h_pad, v_pad;
-  late MainAxisSize axisSize;
-  late MainAxisAlignment mainAxis;
-  List<Widget> children;
+  late final double h_pad, v_pad;
+  late final MainAxisSize axisSize;
+  final MainAxisAlignment mainAxis;
+  final List<Widget> children;
   ColumnDesign(
       {this.h_pad = 0,
       this.v_pad = 0,

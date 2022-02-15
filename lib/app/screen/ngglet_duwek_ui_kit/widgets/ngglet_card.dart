@@ -30,7 +30,7 @@ class _NggletCardState extends State<NggletCard> {
           Row5(color: widget.color),
         ]),
         Positioned(
-          bottom: 5,
+          bottom: 0,
           child: Comments(color: widget.color),
         )
       ],

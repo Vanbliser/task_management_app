@@ -7,14 +7,15 @@ class OngoingProjectWidgetListView extends StatefulWidget {
   OngoingProjectWidgetListView({required this.children});
 
   @override
-  State<OngoingProjectWidgetListView> createState() => _OngoingProjectWidgetListViewState();
+  State<OngoingProjectWidgetListView> createState() =>
+      _OngoingProjectWidgetListViewState();
 }
 
-class _OngoingProjectWidgetListViewState extends State<OngoingProjectWidgetListView> {
+class _OngoingProjectWidgetListViewState
+    extends State<OngoingProjectWidgetListView> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        width: 310,
         height: 150,
         child: ListView(
             itemExtent: 265,
@@ -35,12 +36,13 @@ class _OngoingProjectCard1State extends State<OngoingProjectCard1> {
   @override
   Widget build(BuildContext context) {
     return OngoingProjectCard(
-        title: 'Nggolek Duwet UI Kit',
-        icon: Icons.mood_sharp,
-        cardColor: Color(0xFFEAE8FE),
-        iconColor: Color(0xff4840AB),
-        iconBackground: Color(0xffC5C1F5),
-        value: widget.value,);
+      title: 'Nggolek Duwet UI Kit',
+      icon: Icons.mood_sharp,
+      cardColor: Color(0xFFEAE8FE),
+      iconColor: Color(0xff4840AB),
+      iconBackground: Color(0xffC5C1F5),
+      value: widget.value,
+    );
   }
 }
 
@@ -55,11 +57,12 @@ class _OngoingProjectCard2State extends State<OngoingProjectCard2> {
   @override
   Widget build(BuildContext context) {
     return OngoingProjectCard(
-        title: 'Nggolek Duwet UX Kit',
-        icon: Icons.album_sharp,
-        cardColor: Color(0xFFFCDFF1),
-        iconColor: Color(0xffFF3998),
-        iconBackground: Color(0xffF5B3DA),
-        value: widget.value,);
+      title: 'Nggolek Duwet UX Kit',
+      icon: Icons.album_sharp,
+      cardColor: Color(0xFFFCDFF1),
+      iconColor: Color(0xffFF3998),
+      iconBackground: Color(0xffF5B3DA),
+      value: widget.value,
+    );
   }
 }

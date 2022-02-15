@@ -14,7 +14,8 @@ class CardDesign extends StatelessWidget {
             constraints: BoxConstraints.expand(),
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(40),
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(40), topRight: Radius.circular(40)),
             ),
             child:
                 ColumnDesign(axisSize: MainAxisSize.max, children: children)),

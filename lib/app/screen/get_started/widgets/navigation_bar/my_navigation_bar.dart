@@ -11,7 +11,6 @@ class MyNavigationBar extends StatelessWidget {
           color: Color(0x00000000), borderRadius: BorderRadius.circular(40)),
       margin: EdgeInsets.symmetric(horizontal: 25),
       child: Container(
-        margin: EdgeInsets.only(bottom: 3),
         padding: EdgeInsets.symmetric(horizontal: 10),
         decoration: BoxDecoration(
             color: Color(0xffffffff),

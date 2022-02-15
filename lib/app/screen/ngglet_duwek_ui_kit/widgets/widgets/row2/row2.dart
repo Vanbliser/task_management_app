@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_management_app/app/designs/row_design.dart';
 import 'package:task_management_app/app/designs/text_design.dart';
-
 import 'widgets/due_date.dart';
 
 class Row2 extends StatefulWidget {
