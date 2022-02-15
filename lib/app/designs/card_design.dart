@@ -16,7 +16,8 @@ class CardDesign extends StatelessWidget {
               color: Colors.white,
               borderRadius: BorderRadius.circular(40),
             ),
-            child: ColumnDesign(children: children)),
+            child:
+                ColumnDesign(axisSize: MainAxisSize.max, children: children)),
       ),
     );
   }

@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:task_management_app/app/screen/home/home_widgets/homeCol.dart';
+import 'widgets/homeCol.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-        child: HomeCols(),
+        child: HomeCols(), 
       ),
     );
   }

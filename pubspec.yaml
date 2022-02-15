@@ -63,9 +63,9 @@ flutter:
     - assets/woman.jpeg
     - assets/man1.jpg
     - assets/man2.jpg
-    - assets/laptop.jpeg
-    - assets/images.jpeg
-    - assets/language.jpg
+    - assets/laptop.png
+    - assets/thumb.jpg
+    - assets/lang.png
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

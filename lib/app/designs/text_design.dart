@@ -14,9 +14,9 @@ Map<int, FontWeight> wts = {
 
 class TextDesign extends StatelessWidget {
   String data;
-  Color? color;
-  double? size;
-  int? weight;
+  Color color;
+  double size;
+  int weight;
   late FontWeight? fontWeight = wts[weight];
   TextDesign(
       {required this.data,
