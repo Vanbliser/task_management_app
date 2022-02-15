@@ -11,14 +11,14 @@ class MyTextField extends StatelessWidget {
       child: TextField(
         readOnly: true,
         decoration: InputDecoration(
-          enabled: false,
-          hintText: 'Write a comment, or post an update...',
-          suffixIcon: Icon(Icons.send, color: color),
-          hintStyle: TextStyle(
-              fontSize: 13,
-              color: Color(0xffC3C3C3),
-              fontWeight: FontWeight.w400)
-        ),
+            enabled: false,
+            hintText: 'Write a comment, or post an update...',
+            suffixIcon: Transform.rotate(
+                angle: -0.523599, child: Icon(Icons.send, color: color)),
+            hintStyle: TextStyle(
+                fontSize: 13,
+                color: Color(0xffC3C3C3),
+                fontWeight: FontWeight.w400)),
       ),
     );
   }

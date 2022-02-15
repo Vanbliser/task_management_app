@@ -29,7 +29,9 @@ class _Row2State extends State<Row2> {
           SizedBox(height: 5),
           Row(
             children: [
-              Icon(Icons.link, size: 20, color: widget.color),
+              Transform.rotate(
+                  angle: -0.785398,
+                  child: Icon(Icons.link, size: 20, color: widget.color)),
               SizedBox(width: 4),
               TextDesign(data: '3', color: widget.color, weight: 5)
             ],

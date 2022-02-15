@@ -16,7 +16,9 @@ class MycommentRow extends StatelessWidget {
         children: [
           Container(
               child: Row(children: [
-            Icon(Icons.link, color: color, size: 20),
+            Transform.rotate(
+                angle: -0.785398,
+                child: Icon(Icons.link, color: color, size: 20)),
             SizedBox(width: 10),
             Icon(Icons.camera_alt_outlined, color: color, size: 16)
           ])),
@@ -33,7 +35,7 @@ class MycommentRow extends StatelessWidget {
               ),
               SizedBox(width: 20),
               ImageiconStackBorder(
-                child: Icon(Icons.add, size: 12,color: Color(0xffC3C3C3))),
+                  child: Icon(Icons.add, size: 12, color: Color(0xffC3C3C3))),
             ],
           )
         ],

@@ -9,7 +9,7 @@ class AddAttachment extends StatelessWidget {
       width: 60,
       height: 60,
       decoration: BoxDecoration(
-          color: Color(0xffffff00),
+          color: Color(0xffD4D5D4),
           borderRadius: BorderRadius.circular(15),
           border: Border.all(color: color)),
       child: Icon(Icons.add, size: 20),
