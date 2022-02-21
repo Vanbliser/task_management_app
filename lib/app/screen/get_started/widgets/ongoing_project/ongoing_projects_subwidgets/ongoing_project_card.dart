@@ -4,7 +4,7 @@ import 'outgoing_column.dart';
 
 class OngoingProjectCard extends StatefulWidget {
   String title;
-  IconData? icon;
+  Widget icon;
   Color cardColor, iconColor, iconBackground;
   double value;
 

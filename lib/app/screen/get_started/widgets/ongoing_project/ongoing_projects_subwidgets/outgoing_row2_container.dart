@@ -4,7 +4,7 @@ import 'package:task_management_app/app/designs/text_design.dart';
 class OutgoingRow2Container extends StatelessWidget {
   double width;
   String data;
-  IconData icon;
+  Widget icon;
   Color color;
   OutgoingRow2Container(
       {required this.data,
@@ -22,7 +22,7 @@ class OutgoingRow2Container extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Transform.rotate(angle: -0.785398, child: Icon(icon, size: 15)),
+            icon,
             SizedBox(width: 5),
             TextDesign(
               data: data,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/widgets/comment_widget/my_comment_row.dart';
-import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/widgets/comment_widget/my_text_field.dart';
+import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/subwidgets/comment_widget/my_comment_row.dart';
+import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/subwidgets/comment_widget/my_text_field.dart';
 
 class Comments extends StatelessWidget {
   Color color;

@@ -37,7 +37,7 @@ class _OngoingProjectCard1State extends State<OngoingProjectCard1> {
   Widget build(BuildContext context) {
     return OngoingProjectCard(
       title: 'Nggolek Duwet UI Kit',
-      icon: Icons.mood_sharp,
+      icon: Icon(Icons.mood_sharp, color: Color(0xff4840AB)),
       cardColor: Color(0xFFEAE8FE),
       iconColor: Color(0xff4840AB),
       iconBackground: Color(0xffC5C1F5),
@@ -58,7 +58,7 @@ class _OngoingProjectCard2State extends State<OngoingProjectCard2> {
   Widget build(BuildContext context) {
     return OngoingProjectCard(
       title: 'Nggolek Duwet UX Kit',
-      icon: Icons.album_sharp,
+      icon: Icon(Icons.album_sharp, color: Color(0xffFF3998)),
       cardColor: Color(0xFFFCDFF1),
       iconColor: Color(0xffFF3998),
       iconBackground: Color(0xffF5B3DA),

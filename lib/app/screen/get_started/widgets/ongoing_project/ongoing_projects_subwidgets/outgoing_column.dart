@@ -5,7 +5,7 @@ import 'outgoing_row3.dart';
 
 class OutgoingColumn extends StatefulWidget {
   String title;
-  IconData? icon;
+  Widget icon;
   Color iconColor, iconBackground;
   double value;
   OutgoingColumn(

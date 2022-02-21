@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:task_management_app/app/designs/card_design.dart';
 
 import 'comments.dart';
-import 'widgets/row1/row1.dart';
-import 'widgets/row2/row2.dart';
-import 'widgets/row3/row3.dart';
-import 'widgets/row4/row4.dart';
-import 'widgets/row5/row5.dart';
+import 'subwidgets/row1/row1.dart';
+import 'subwidgets/row2/row2.dart';
+import 'subwidgets/row3/row3.dart';
+import 'subwidgets/row4/row4.dart';
+import 'subwidgets/row5/row5.dart';
 
 class NggletCard extends StatefulWidget {
   Color color;

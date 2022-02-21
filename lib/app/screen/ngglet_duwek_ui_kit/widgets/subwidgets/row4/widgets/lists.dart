@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:task_management_app/app/screen/get_started/get_started_designs/functions/data_maps.dart';
-import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/widgets/row4/widgets/first_tile.dart';
-import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/widgets/row4/widgets/second_tile.dart';
-import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/widgets/row4/widgets/third_tile.dart';
+import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/subwidgets/row4/widgets/first_tile.dart';
+import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/subwidgets/row4/widgets/second_tile.dart';
+import 'package:task_management_app/app/screen/ngglet_duwek_ui_kit/widgets/subwidgets/row4/widgets/third_tile.dart';
 
 class Lists extends StatefulWidget {
   Color color;
